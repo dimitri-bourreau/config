@@ -1,11 +1,11 @@
 [user]
 	name = Dimitri Bourreau
-	email = myemail
+	email = contact@dimitribourreau.me
 
 [alias]
 	aa=add --all
 	cm=commit -m
-	bv=branch -vv
+	bv=branch -vva
 	bd=branch -d
 	ca=commit --amend
 	cb=checkout -b
