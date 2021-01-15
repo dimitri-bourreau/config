@@ -49,6 +49,7 @@ set shiftwidth=2
 set clipboard=unnamed
 set termguicolors
 syntax on
+set re=0
 
 "--------- Theme ---------
 let g:gruvbox_contrast_dark = 'hard'

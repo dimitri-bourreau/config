@@ -1,4 +1,3 @@
-alias cossh='ssh tobudim@51.210.15.211'
 alias cdco='cd ~/code/'
 alias ll='ls -lhAF'
 alias ..='cd ..'
