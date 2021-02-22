@@ -24,12 +24,6 @@ Plug 'mattn/emmet-vim'
 Plug 'preservim/nerdtree'
 
 "-- Theme --
-Plug 'gruvbox-community/gruvbox'
-Plug 'colepeters/spacemacs-theme.vim'
-Plug 'sainnhe/gruvbox-material'
-Plug 'phanviet/vim-monokai-pro'
-Plug 'flazz/vim-colorschemes'
-Plug 'chriskempson/base16-vim'
 
 "-- Polyglot --
 Plug 'sheerun/vim-polyglot'
@@ -52,14 +46,6 @@ syntax on
 set re=0
 
 "--------- Theme ---------
-let g:gruvbox_contrast_dark = 'hard'
-if exists('+termguicolors')
-    let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
-    let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
-endif
-let g:gruvbox_invert_selection='0'
-colorscheme gruvbox
-set background=dark
 
 "---------- Emmet ----------
 let g:user_emmet_mode='a'
