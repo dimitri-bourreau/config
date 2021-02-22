@@ -47,7 +47,7 @@ syntax on
 set re=0
 
 "--------- Theme ---------
-let g:airline_theme="onehalflight"
+colorscheme onehalflight
 
 "---------- Emmet ----------
 let g:user_emmet_mode='a'
