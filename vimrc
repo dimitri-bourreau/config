@@ -24,6 +24,7 @@ Plug 'mattn/emmet-vim'
 Plug 'preservim/nerdtree'
 
 "-- Theme --
+Plug 'sonph/onehalf', { 'rtp': 'vim' }
 
 "-- Polyglot --
 Plug 'sheerun/vim-polyglot'
@@ -46,6 +47,7 @@ syntax on
 set re=0
 
 "--------- Theme ---------
+let g:airline_theme="onehalflight"
 
 "---------- Emmet ----------
 let g:user_emmet_mode='a'
