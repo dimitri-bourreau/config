@@ -1,5 +1,6 @@
 alias cdco='cd ~/code/'
 alias ll='ls -lhAF'
+alias nvcf='nvim ~/.config/nvim/init.vim'
 
 export CLICLOR=1
 
