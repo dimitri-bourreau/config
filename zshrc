@@ -7,7 +7,7 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-ZSH_THEME="powerlevel10k/powerlevel10k"
+ZSH_THEME="af-magic"
 export ZSH="/Users/dimitri/.oh-my-zsh"
 plugins=(git)
 source $ZSH/oh-my-zsh.sh
