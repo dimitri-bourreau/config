@@ -14,6 +14,9 @@ source $ZSH/oh-my-zsh.sh
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+# --------- ALIAS --------------
 alias cdco='cd ~/code/'
 alias ll='ls -lhAF'
 alias nvcf='nvim ~/.config/nvim/init.vim'
+
+[ -f "/Users/dimitri/.ghcup/env" ] && source "/Users/dimitri/.ghcup/env" # ghcup-env
