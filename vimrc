@@ -38,16 +38,20 @@ call plug#end()
 set nocompatible
 set number
 set updatetime=50
-set tabstop=2
-set softtabstop=0 noexpandtab
-set shiftwidth=2
+set tabstop=4 softtabstop=4
+set shiftwidth=4
 set clipboard=unnamed
 set termguicolors
 syntax on
 set re=0
+set scrolloff=8
+set relativenumber
+set expandtab
+set smartindent
+set termguicolors
 
 "--------- Theme ---------
-colorscheme onehalflight
+"-- colorscheme onehalflight
 
 "---------- Emmet ----------
 let g:user_emmet_mode='a'
