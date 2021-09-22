@@ -21,7 +21,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'mattn/emmet-vim'
 
 "-- File tree --
-Plug 'preservim/nerdtree'
+"-- Plug 'preservim/nerdtree'
 
 "-- Theme --
 Plug 'sonph/onehalf', { 'rtp': 'vim' }
@@ -73,3 +73,6 @@ nnoremap <leader>h :wincmd h<CR>
 nnoremap <leader>j :wincmd j<CR>
 nnoremap <leader>k :wincmd k<CR>
 nnoremap <leader>l :wincmd l<CR>
+
+"--------- Commands ---------
+command E Ex
