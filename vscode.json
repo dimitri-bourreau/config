@@ -1,7 +1,6 @@
 {
   "terminal.integrated.minimumContrastRatio": 15,
   "workbench.iconTheme": "material-icon-theme",
-  "editor.minimap.enabled": false,
   "workbench.sideBar.location": "left",
   "explorer.openEditors.visible": 0,
   "workbench.startupEditor": "newUntitledFile",
@@ -61,5 +60,7 @@
   "editor.cursorStyle": "block",
   "editor.acceptSuggestionOnCommitCharacter": false,
   "editor.acceptSuggestionOnEnter": "off",
-  "editor.showFoldingControls": "always"
+  "editor.showFoldingControls": "always",
+  "editor.minimap.showSlider": "always",
+  "editor.overviewRulerBorder": false
 }
