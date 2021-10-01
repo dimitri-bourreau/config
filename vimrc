@@ -76,3 +76,8 @@ nnoremap <leader>l :wincmd l<CR>
 
 "--------- Commands ---------
 command E Ex
+
+"-------- Auto commands -----
+autocmd BufWritePost * call system("ctags -R")
+nnoremap <leader>s :split<CR>
+nnoremap <leader>v :vsplit<CR>
