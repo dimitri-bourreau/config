@@ -33,3 +33,4 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+    today = log --since=midnight --author='Dimitri Bourreau' --oneline
