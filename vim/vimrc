@@ -51,7 +51,7 @@ set smartindent
 set termguicolors
 
 "--------- Theme ---------
-"-- colorscheme onehalflight
+colorscheme onehalfdark
 
 "---------- Emmet ----------
 let g:user_emmet_mode='a'
