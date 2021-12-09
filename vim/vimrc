@@ -25,6 +25,7 @@ Plug 'mattn/emmet-vim'
 
 "-- Theme --
 Plug 'sonph/onehalf', { 'rtp': 'vim' }
+Plug 'vim-airline/vim-airline'
 
 "-- Polyglot --
 Plug 'sheerun/vim-polyglot'
@@ -65,10 +66,9 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 
 "---------- Maping ----------
 let mapleader = ","
-map <Leader>n :NERDTreeToggle<CR>
-nmap <silent> <Leader>e :lopen
 nmap <Leader>f :FZF <CR>
 nmap <Leader>g :GFiles <CR>
+nmap <Leader>a :Ag <CR>
 nnoremap <leader>h :wincmd h<CR>
 nnoremap <leader>j :wincmd j<CR>
 nnoremap <leader>k :wincmd k<CR>
@@ -76,6 +76,8 @@ nnoremap <leader>l :wincmd l<CR>
 
 "--------- Commands ---------
 command E Ex
+command A Ag
+"-- Ag needs brew install the_silver_searcher
 
 "-------- Auto commands -----
 autocmd BufWritePost * call system("ctags -R")
