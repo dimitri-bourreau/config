@@ -30,3 +30,4 @@ bindkey "©" fzf-cd-widget
 
 export NODE_PENDING_DEPRECATION=1
 export NODE_OPTIONS=--trace-warnings
+export PATH=$PATH:~/.npm-packages/bin
