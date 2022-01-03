@@ -23,4 +23,4 @@ alias v=vim
 
 bindkey "©" fzf-cd-widget
 
-export PATH="$PATH:~/.npm-packages/bin"
+export PATH=$PATH:~/.npm-packages/bin
