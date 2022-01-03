@@ -1,0 +1,74 @@
+{
+  "terminal.integrated.minimumContrastRatio": 15,
+  "workbench.iconTheme": "material-icon-theme",
+  "explorer.openEditors.visible": 0,
+  "workbench.startupEditor": "newUntitledFile",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.confirmSync": false,
+  "editor.wordWrap": "on",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.enableSmartCommit": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.tabSize": 2,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+  "editor.formatOnPaste": false,
+  "editor.formatOnType": false,
+  "explorer.confirmDragAndDrop": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorTheme": "Atom One Dark",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.fontFamily": "Hack",
+  "explorer.confirmDelete": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "appService.showDeploySubpathWarning": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "workbench.editor.showTabs": true,
+  "breadcrumbs.enabled": true,
+  "terminal.explorerKind": "external",
+  "terminal.external.osxExec": "iTerm.app",
+  "editor.linkedEditing": true,
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 100,
+  "workbench.tree.indent": 24,
+  "terminal.integrated.fontSize": 14,
+  "editor.lineNumbers": "on",
+  "workbench.preferredLightColorTheme": "Hop Light",
+  "workbench.preferredDarkColorTheme": "Atom One Dark",
+  "window.autoDetectColorScheme": true,
+  "workbench.tree.renderIndentGuides": "always",
+  "editor.renderIndentGuides": false,
+  "editor.cursorBlinking": "smooth",
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.acceptSuggestionOnEnter": "off",
+  "editor.showFoldingControls": "always",
+  "editor.minimap.showSlider": "always",
+  "editor.overviewRulerBorder": false,
+  "editor.smoothScrolling": true,
+  "workbench.list.smoothScrolling": true,
+"diffEditor.ignoreTrimWhitespace": false,
+"editor.fontSize": 13,
+"git.autofetch": true,
+"backgroundCover.imagePath": "/Users/dimitri/Library/Mobile Documents/com~apple~CloudDocs/wallpapers/2b-nier-automata-8k-9o.jpg",
+"backgroundCover.opacity": 0.1,
+"workbench.colorCustomizations": {
+  "terminal.background": "#292828",
+  "terminal.foreground": "#b4adad",
+},
+"workbench.activityBar.visible": false
+}

@@ -1,0 +1,36 @@
+[user]
+	name = Dimitri Bourreau
+	email = contact@dimitribourreau.me
+
+[alias]
+	aa=add --all
+	cm=commit -m
+	bv=branch -vva
+	bd=branch -d
+	ca=commit --amend
+	cb=checkout -b
+	cmf=git commit -a --amend -C HEAD
+	co=checkout
+	di=diff
+	dc=diff --cached
+	st=status --short --branch
+	pu=push --tags
+	ssu=stash save -u
+	sr=stash show
+	sl=stash list
+	sp=stash pop
+	na=notes add
+	nl=notes list
+	nr=notes remove
+    today=log --since=midnight --author='Dimitri Bourreau' --oneline
+	ready=notes add -m "ReadyToMerge" -f
+	bdate=bdate = for-each-ref --sort=committerdate refs/heads/ --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(color:red)%(objectname:short)%(color:reset) - %(contents:subject) - %(authorname) (%(color:green)%(committerdate:relative)%(color:reset))'
+	ll=log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
+	ld=log --pretty=format:"%C(yellow)%h\\ %C(green)%ad%Cred%d\\ %Creset%s%C(cyan)\\ [%cn]" --decorate --date=short --graph
+	ls=log --pretty=format:"%C(green)%h\\ %C(yellow)[%ad]%Cred%d\\ %Creset%s%C(cyan)\\ [%cn]" --decorate --date=relative
+	churn="!f() { git ls-files -z | xargs -0n1 git blame -w --line-porcelain | grep -a "^author\\ " | sort -f | uniq -c | sort -nr;}; f"
+[filter "lfs"]
+	clean=git-lfs clean -- %f
+	smudge=git-lfs smudge -- %f
+	process=git-lfs filter-process
+	required=true
