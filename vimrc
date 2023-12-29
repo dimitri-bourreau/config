@@ -42,14 +42,12 @@ set updatetime=50
 set tabstop=2 softtabstop=2
 set shiftwidth=2
 set clipboard=unnamed
-set termguicolors
 syntax on
 set re=0
 set scrolloff=8
 set relativenumber
 set expandtab
 set smartindent
-set termguicolors
 
 "--------- Theme ---------
 " colorscheme onehalfdark
@@ -80,3 +78,4 @@ command A Ag
 autocmd BufWritePost * call system("ctags -R")
 nnoremap <leader>s :split<CR>
 nnoremap <leader>v :vsplit<CR>
+
