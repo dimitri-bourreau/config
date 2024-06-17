@@ -23,12 +23,11 @@ Plug 'mattn/emmet-vim'
 "-- File tree --
 "-- Plug 'preservim/nerdtree'
 
-"-- Theme --
-Plug 'sonph/onehalf', { 'rtp': 'vim' }
-Plug 'vim-airline/vim-airline'
-
 "-- Polyglot --
 Plug 'sheerun/vim-polyglot'
+
+"-- Theme --
+Plug 'nightsense/carbonized'
 
 call plug#end()
 
@@ -42,15 +41,17 @@ set updatetime=50
 set tabstop=2 softtabstop=2
 set shiftwidth=2
 set clipboard=unnamed
+set termguicolors
 syntax on
 set re=0
 set scrolloff=8
 set relativenumber
 set expandtab
 set smartindent
+set termguicolors
 
 "--------- Theme ---------
-" colorscheme onehalfdark
+colorscheme carbonized-light
 
 "---------- Emmet ----------
 let g:user_emmet_mode='a'
@@ -78,4 +79,3 @@ command A Ag
 autocmd BufWritePost * call system("ctags -R")
 nnoremap <leader>s :split<CR>
 nnoremap <leader>v :vsplit<CR>
-
