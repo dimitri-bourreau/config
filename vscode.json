@@ -59,5 +59,6 @@
   "workbench.colorCustomizations": {},
   "workbench.sideBar.location": "right",
   "editor.minimap.side": "left",
-  "editor.minimap.enabled": false
+  "editor.minimap.enabled": false,
+  "editor.scrollBeyondLastLine": false
 }
