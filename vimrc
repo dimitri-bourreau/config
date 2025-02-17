@@ -26,9 +26,6 @@ Plug 'mattn/emmet-vim'
 "-- Polyglot --
 Plug 'sheerun/vim-polyglot'
 
-"-- Theme --
-Plug 'nightsense/carbonized'
-
 call plug#end()
 
 "=======================================
@@ -41,17 +38,12 @@ set updatetime=50
 set tabstop=2 softtabstop=2
 set shiftwidth=2
 set clipboard=unnamed
-set termguicolors
 syntax on
 set re=0
 set scrolloff=8
 set relativenumber
 set expandtab
 set smartindent
-set termguicolors
-
-"--------- Theme ---------
-colorscheme carbonized-light
 
 "---------- Emmet ----------
 let g:user_emmet_mode='a'
