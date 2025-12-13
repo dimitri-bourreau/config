@@ -1,6 +1,5 @@
 {
   "terminal.integrated.minimumContrastRatio": 15,
-  "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "newUntitledFile",
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -40,7 +39,7 @@
   "terminal.integrated.fontSize": 14,
   "editor.lineNumbers": "on",
   "workbench.preferredLightColorTheme": "GitHub Light",
-  "workbench.preferredDarkColorTheme": "Atom One Dark",
+  "workbench.preferredDarkColorTheme": "GitHub Dark",
   "window.autoDetectColorScheme": true,
   "workbench.tree.renderIndentGuides": "always",
   "editor.cursorBlinking": "smooth",
@@ -56,19 +55,18 @@
   "workbench.sideBar.location": "left",
   "editor.minimap.side": "left",
   "editor.minimap.enabled": false,
-  "chat.commandCenter.enabled": false,
   "workbench.layoutControl.enabled": false,
   "window.commandCenter": false,
   "workbench.editor.pinnedTabsOnSeparateRow": true,
   "workbench.editor.wrapTabs": true,
   "editor.formatOnSave": true,
-  "workbench.activityBar.location": "hidden",
-  "editor.scrollBeyondLastLine": false,
-  "editor.autoClosingBrackets": "always",
+  "files.associations": {
+    "*.css": "tailwindcss",
+    "*.scss": "tailwindcss"
+  },
   "editor.autoClosingComments": "never",
   "editor.autoClosingDelete": "always",
   "editor.autoClosingOvertype": "never",
-  "editor.autoClosingQuotes": "never",
   "editor.codeActionWidget.includeNearbyQuickFixes": false,
   "editor.codeActionWidget.showHeaders": false,
   "editor.codeLens": false,
@@ -86,7 +84,7 @@
   "editor.accessibilitySupport": "off",
   "editor.guides.bracketPairs": "active",
   "editor.guides.highlightActiveIndentation": false,
-  "editor.hover.enabled": false,
+  "editor.hover.enabled": "on",
   "editor.inlayHints.enabled": "offUnlessPressed",
   "editor.lightbulb.enabled": "off",
   "editor.links": false,
@@ -102,11 +100,23 @@
   "editor.stablePeek": true,
   "editor.stickyScroll.enabled": false,
   "editor.unicodeHighlight.includeComments": true,
-  "editor.unicodeHighlight.nonBasicASCII": true,
+  "editor.unicodeHighlight.nonBasicASCII": false,
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.find.addExtraSpaceOnTop": false,
-  "editor.formatOnSaveMode": "modificationsIfAvailable",
+  "editor.formatOnSaveMode": "file",
   "diffEditor.experimental.showMoves": true,
-  "application.shellEnvironmentResolutionTimeout": 120
+  "application.shellEnvironmentResolutionTimeout": 120,
+  "editor.autoSurround": "never",
+  "gitHistory.showFileHistorySplit": false,
+  "chat.commandCenter.enabled": false,
+  "window.systemColorTheme": "auto",
+  "editor.inlineSuggest.enabled": false,
+  "workbench.statusBar.visible": false,
+  "notebook.experimental.generate": false,
+  "claudeCode.preferredLocation": "sidebar",
+  "chat.disableAIFeatures": true,
+  "[markdown]": {
+    "diffEditor.ignoreTrimWhitespace": true
+  },
+  "claudeCode.selectedModel": "haiku"
 }
-
