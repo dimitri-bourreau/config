@@ -1,8 +1,3 @@
-# Aliases
-alias cdco='cd ~/code'
-alias ll='ls -lhAF'
-alias v=vim
-
 # Terminal
 export PATH=$PATH:~/.npm-packages/bin
 export NVM_DIR="$HOME/.nvm"
@@ -14,3 +9,9 @@ export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="kphoen"
 plugins=(git)
 source $ZSH/oh-my-zsh.sh
+
+# Aliases
+alias cdco='cd ~/code'
+alias ll='ls -lha'
+alias v=vim
+
