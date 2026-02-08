@@ -1,27 +1,67 @@
-# Favorite Tech Stack
+# Tech Stack
 
-React, Next.js, TypeScript, Tailwind CSS, Jest, Playwright
+React, Next.js, TypeScript, Tailwind CSS, Playwright, nuqs, TanStack Query, shadcn/ui
 
-# Code Principles
+# Code Style
 
-- Dependency injection
-- Decouple interface from logic
-- Strict typing
-- No comments in code except
-- Short functions, max 5-10 lines
-- Prefer modularity with explicit labels
-- Tests are mandatory, though when you do it yourself only write a few
-- Always prefer simplicity or dumb code
+- Use explicit variable names: avoid `e`, `data`, `item`, `res`
+- Use `&apos;` instead of `'` in JSX strings
+- Keep functions short: 10 lines maximum
+- Avoid comments: use descriptive names instead
+- Remove unused imports
+- Prioritize simplicity over abstraction
 
-## Behavior Rules
+# Project Structure
 
-- Keep responses short: max 1-3 paragraphs
-- Precise instructions only: execute exactly what's asked, don't add extra steps
-- Minimal reasoning: direct action, ecological AI usage
-- Do the minimum needed: avoid over-engineering
+```
+features/{domain}/
+  api/
+    {domain}.port.ts        # Interface defining repository methods
+    api.adapter.ts          # Implementation using IndexedDB/API
+  services/
+    {action}.service.ts     # Business logic, receives repository as parameter
+  types/
+    {name}.type.ts          # TypeScript interfaces and types
+    {name}-dto.type.ts      # Data transfer objects
 
-## Testing Requirements
+hooks/
+  use-{action}.hook.ts      # One hook per file, uses TanStack Query
+  use-{domain}s.hook.ts     # Plural for list queries
 
-- Jest for unit/integration tests
-- Playwright for e2e
-- Test coverage for all logic
+components/
+  atoms/                    # Basic UI elements
+  molecules/                # Combinations of atoms
+  organisms/                # Complex components with logic
+  ui/                       # shadcn/ui components (do not modify)
+
+e2e-tests/
+  {feature}.spec.ts         # Playwright tests
+  helpers.ts                # Shared test utilities
+  mock-data.ts              # Test fixtures
+```
+
+# Coding Conventions
+
+- Write components and handlers as arrow functions
+- Name files in kebab-case: `company-list.tsx`, `use-companies.hook.ts`
+- Limit components to 150 lines
+- Separate UI from logic: components call hooks, hooks call services
+
+# Git Hooks (Husky)
+
+- **pre-commit**: runs `lint-staged` (Prettier + ESLint on staged files)
+- **pre-push**: runs `npm run build && npm test`
+- Commit and push are blocked if any check fails
+
+# Testing
+
+- Write Playwright e2e tests in `e2e-tests/`
+- Propose a test when implementing a new feature
+- Do not run build or tests: I will handle this
+
+# Interaction Rules
+
+- Keep responses concise: 1-3 paragraphs
+- Execute only what is requested
+- Avoid unnecessary CLI commands
+
