@@ -56,7 +56,8 @@ e2e-tests/
 # Testing
 
 - Write Playwright e2e tests in `e2e-tests/`
-- Propose a test when implementing a new feature
+- Propose a test when implementing a new feature systematically
+- When updating a feature, some logic, check if an e2e tests exists about it and update it accordingly
 - Do not run build or tests: I will handle this
 
 # Interaction Rules
