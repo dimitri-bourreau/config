@@ -66,3 +66,9 @@ e2e-tests/
 - Execute only what is requested
 - Avoid unnecessary CLI commands
 
+# Creating a webapp from scratch
+
+- Use Next.js with the app router
+- Use TypeScript, TailwindCSS, Shadcn, nuqs
+- Use ESLint, Prettier
+- Set up husky : pre-commit are lint & format, pre-push is build
