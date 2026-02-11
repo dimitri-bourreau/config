@@ -72,3 +72,9 @@ e2e-tests/
 - Use TypeScript, TailwindCSS, Shadcn, nuqs
 - Use ESLint, Prettier
 - Set up husky : pre-commit are lint & format, pre-push is build
+
+# Frontend rules
+
+- Always respect a good contrast ratio
+- Buttons must have a pointer cursor
+- Prefer subtle and discrete animations, never move the content itself, animations should be about the decoration
