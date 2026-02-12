@@ -23,6 +23,8 @@ features/{domain}/
   types/
     {name}.type.ts          # TypeScript interfaces and types
     {name}-dto.type.ts      # Data transfer objects
+  mocks/
+    {name}.mock.ts          # Mock of data as used or received
 
 hooks/
   use-{action}.hook.ts      # One hook per file, uses TanStack Query
@@ -59,6 +61,9 @@ e2e-tests/
 - Propose a test when implementing a new feature systematically
 - When updating a feature, some logic, check if an e2e tests exists about it and update it accordingly
 - Do not run build or tests: I will handle this
+- Testing a feature is also testing failures are absence of feature (if a table is displayed on a condition, check it is not displayed if that condition is not met as well)
+- Tests are short and assert one thing only
+- Mocked data are in `features/{domain}/mocks/`
 
 # Interaction Rules
 
