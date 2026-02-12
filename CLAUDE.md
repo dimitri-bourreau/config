@@ -5,7 +5,7 @@ React, Next.js, TypeScript, Tailwind CSS, Playwright, nuqs, TanStack Query, shad
 # Code Style
 
 - Use explicit variable names: avoid `e`, `data`, `item`, `res`
-- Use `&apos;` instead of `'` in JSX strings
+- Use `&apos;` instead of `'` in JSX strings, not un .md files
 - Keep functions short: 10 lines maximum
 - Avoid comments: use descriptive names instead
 - Remove unused imports
