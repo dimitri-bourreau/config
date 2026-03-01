@@ -6,7 +6,6 @@
 
 # Frontend
 
-- La logique n'est jamais dans les composants (React).
 - The logic is never written inside components (React).
 - Prefer tailwindcss, shadcn, nuqs and next.js.
 - Write domain logic in `/features/[domaine name]/`.
