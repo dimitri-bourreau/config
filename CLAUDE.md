@@ -8,5 +8,5 @@
 
 - The logic is never written inside components (React).
 - Prefer tailwindcss, shadcn, nuqs and next.js.
-- Write domain logic in `/features/[domaine name]/`.
+- Write domain logic in `/features/[domain name]/`.
 - Prefer modularity with small files.
