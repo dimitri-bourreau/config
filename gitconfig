@@ -29,7 +29,7 @@
 	ld=log --pretty=format:"%C(yellow)%h\\ %C(green)%ad%Cred%d\\ %Creset%s%C(cyan)\\ [%cn]" --decorate --date=short --graph
 	ls=log --pretty=format:"%C(green)%h\\ %C(yellow)[%ad]%Cred%d\\ %Creset%s%C(cyan)\\ [%cn]" --decorate --date=relative
 	churn="!f() { git ls-files -z | xargs -0n1 git blame -w --line-porcelain | grep -a "^author\\ " | sort -f | uniq -c | sort -nr;}; f"
-    mybranches='git for-each-ref --format='%(authorname) %(refname:short)' refs/remotes | grep "Dimitri"'
+    mybranches = !git for-each-ref --format='%(authorname) %(refname:short)'     refs/remotes | grep Dimitri
 
 [filter "lfs"]
 	clean=git-lfs clean -- %f
